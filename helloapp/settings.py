@@ -122,6 +122,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = (
     os.path.join(STATIC_ROOT, 'staticfiles'),
 )
+
+WKHTMLTOPDF_CMD = 'xvfb-run -a wkhtmltopdf'
 # database settings
 
 """
